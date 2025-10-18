@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/  joinTables.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/10tables.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/10tablesTerminal.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/DML-LmsTask.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/DML-Session.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/joinLmsTask.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/joinPractic.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/pgAdmin.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/subQuery.sql" dialect="PostgreSQL" />
   </component>
 </project>

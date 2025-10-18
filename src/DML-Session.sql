@@ -176,4 +176,3 @@ select *from people where language not in ('French');
 select min (age) from people where email like '%.com' limit 5;
 
 select * from people where age>=18 and email like '%.com' or email like '%.uk';
-

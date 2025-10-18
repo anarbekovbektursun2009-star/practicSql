@@ -423,7 +423,7 @@ select * from cars where color in ('Red','Blue');
 --#5 Отобразите все автомобили, выпущенные с 2000 по 2010 год
 select * from cars where year_of_issue between 2000 and 2010;
 
---#6 Отобразите количество автомобилей марки  Chevrolet
+--#6 Отобразите количество автомобилей марки Chevrolet
 select count(id) from cars where brand='Chevrolet';
 
 --#8 Отобразите все автомобили  брендов  Audi, Toyota, Kia и Ford
@@ -441,11 +441,11 @@ select * from cars where length(brand)=5 order by id;
 --#12 Отобразите общую сумму всех автомобилей марки Mercedes-Benz
 select sum(id)from cars where brand='Mercedes-Benz';
 
---#13 Отобразите самую дорогую  и самую дешевую машину
+--#13 Отобразите самую дорогую и самую дешевую машину
 select max(price) from cars;
 select min(price) from cars;
 
---#14 Отобразите все автомобили кроме марки  TOYOTA
+--#14 Отобразите все автомобили кроме марки TOYOTA
 select * from cars where brand not in ('Toyota');
 
 --#15 Отобразите 10 самых дорогих автомобилей
@@ -454,10 +454,10 @@ SELECT * FROM cars ORDER BY price DESC LIMIT 10;
 --#16 Отобразите 10 новейших машин с 5-го по 15-е.
 SELECT * FROM cars ORDER BY year_of_issue DESC OFFSET 5 LIMIT 10;
 
---#17 Отобразите все автомобили, кроме тех,  которые выпустились между 1995 и 2005;
+--#17 Отобразите все автомобили, кроме тех, которые выпустились между 1995 и 2005;
 select * from cars where year_of_issue not in (1995,2005);
 
---#18 Вывести  автомобилей  одного цвета  и наибольшего количества
+--#18 Вывести автомобилей одного цвета и наибольшего количества
 SELECT * FROM cars WHERE color = ( SELECT color FROM cars GROUP BY color ORDER BY COUNT(*) DESC LIMIT 1);
 
 

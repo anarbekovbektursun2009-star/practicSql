@@ -2,7 +2,11 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/d00c8c96-fc1e-4e62-877d-97cd89a6bc03/console.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
+    <file url="file://$PROJECT_DIR$/src/  joinTables.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
+    <file url="file://$PROJECT_DIR$/src/10tables.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
     <file url="file://$PROJECT_DIR$/src/DML-LmsTask.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
     <file url="file://$PROJECT_DIR$/src/DML-Session.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
+    <file url="file://$PROJECT_DIR$/src/joinPractic.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
+    <file url="file://$PROJECT_DIR$/src/subQuery.sql" value="d00c8c96-fc1e-4e62-877d-97cd89a6bc03" />
   </component>
 </project>
